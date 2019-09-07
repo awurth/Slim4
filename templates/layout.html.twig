@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>{% block title %}Slim Skeleton{% endblock title %}</title>
+
+  {% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('build/app.css') }}">
+  {% endblock stylesheets %}
+</head>
+<body class="{% block body_class %}{% endblock body_class %}">
+{% block navbar %}
+  {% include '_navbar.html.twig' %}
+{% endblock navbar %}
+
+{% block flash %}
+  {% include '_flash.html.twig' %}
+{% endblock flash %}
+
+{% block body %}
+  <div class="container">
+    {% block page_content %}{% endblock page_content %}
+  </div>
+{% endblock body %}
+
+{% block javascripts %}
+  <script src="{{ asset('build/app.js') }}"></script>
+{% endblock javascripts %}
+</body>
+</html>

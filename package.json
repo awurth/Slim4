@@ -1,0 +1,28 @@
+{
+  "name": "slim",
+  "version": "1.0.0",
+  "description": "Slim PHP Micro-Framework skeleton",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awurth/Slim.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/awurth/Slim4#readme",
+  "scripts": {
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.28.0",
+    "sass": "^1.24.2",
+    "sass-loader": "^7.0.1",
+    "webpack-notifier": "^1.8.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
