@@ -12,5 +12,3 @@ require __DIR__.'/../vendor/autoload.php';
 $app = new Application($_SERVER['APP_ENV']);
 
 $app->run();
-
-
