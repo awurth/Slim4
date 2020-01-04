@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awurth/Slim.git"
+    "url": "git+https://github.com/awurth/Slim4.git"
   },
   "license": "MIT",
   "homepage": "https://github.com/awurth/Slim4#readme",
