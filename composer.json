@@ -26,6 +26,7 @@
     "php": "^7.2",
     "monolog/monolog": "^2.0",
     "php-di/php-di": "^6.0",
+    "slim/csrf": "^1.0",
     "slim/psr7": "^0.6.0",
     "slim/slim": "^4.0",
     "slim/twig-view": "^3.0",

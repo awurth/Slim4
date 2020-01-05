@@ -7,6 +7,5 @@ This is an app skeleton for the Slim PHP Micro-Framework to get started quickly
 - Tests
 - Docker
 - Flash
-- CSRF ?
 - Validator ?
 - Database ?
